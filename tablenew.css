@@ -1,0 +1,65 @@
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+        a{
+            text-decoration:none;
+        }
+        button{
+            background-color:white;
+            padding: auto;
+            width:100%;
+            border-radius:5px;
+        }
+        th,td{
+            text-align:center;
+            padding:15px;
+        }
+        h1{
+            color:white;
+            letter-spacing:2px;
+            font-family: 'Abril Fatface', sans-serif;
+        }
+        /* th{
+            background-color: yellow;
+        } */
+     th{
+        background-color:#f5f2ef;
+        color:black;
+        }
+        td{
+        text-align:center;
+        padding:15px;
+        background-color:#e8edf0;
+        color:black;
+        
+        }
+     table{
+            width: 96%;
+            border-collapse: collapse;
+            border: 2px white rgb(230, 224, 224);
+     }
+     table .sticky th{
+         position:sticky;
+         top:0;
+     }
+    
+.header_fixed {
+    max-height: 100vh;
+    padding:50px 20px;
+    width: 100%;
+    overflow: auto;
+    /*border: 1px solid black;/*#dddddd*/;*/
+}
+
+.header_fixed thead th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(245, 217, 217) ;
+    color: #000000;
+    font-size: 15px;
+}
+
+tr:hover td {
+    color: black;
+    cursor: pointer;
+    background-color: #47e3e9;
+}
+
